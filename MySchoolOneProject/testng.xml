@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>  
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCases.TC_001CreateCAS"/>
+      <class name="testCases.TC_002CreateSAS"/>
+      <class name="testCases.TC_004PersonalProject"/>
+      <class name="testCases.TC_003TOKExhibition"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
